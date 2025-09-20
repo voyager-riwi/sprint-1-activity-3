@@ -1,24 +1,24 @@
 # sprint-1-activity-3
 
-# Proyecto: Objetos en C#
+# Project: Objects in C#
 
-## Descripción
-Este proyecto en **C# (.NET 8.0)** implementa un conjunto de clases que representan distintos objetos de la vida real (Banco, Restaurante, Estudiantes, Hotel, etc.).  
-Cada clase encapsula atributos y métodos relacionados, y el programa principal (`Program.cs`) permite interactuar con ellos mediante un **menú en consola**.
+## Description
+This project in **C# (.NET 8.0)** implements a set of classes that represent different real-world objects (Bank, Restaurant, Students, Hotel, etc.).  
+Each class encapsulates related attributes and methods, and the main program (`Program.cs`) allows interaction with them through a **console menu**.
 
-El objetivo es practicar:
-- **Programación Orientada a Objetos (POO)** en C#.
-- Creación y uso de clases.
-- Abstracción de problemas reales a código.
-- Gestión de múltiples entidades desde un programa principal.
+The main goal is to practice:
+- **Object-Oriented Programming (OOP)** in C#.
+- Creating and using classes.
+- Abstracting real-world problems into code.
+- Managing multiple entities from a main program.
 
 ---
 
-## Estructura del Proyecto
+## Project Structure
 Objetos/
-│── Objetos.csproj # Configuración del proyecto .NET
-│── Program.cs # Programa principal con el menú
-│── Class/ # Carpeta con todas las clases
+│── Objetos.csproj # .NET project configuration
+│── Program.cs # Main program with the console menu
+│── Class/ # Folder containing all the classes
 │ ├── Bank.cs
 │ ├── Calculator.cs
 │ ├── Cinema.cs
@@ -31,52 +31,49 @@ Objetos/
 │ ├── Store.cs
 │ ├── Students.cs
 
-## Instalación y Ejecución
+yaml
+Copiar código
 
-1. Clonar este repositorio o descomprimir el `.zip`:
+---
+
+## Installation & Execution
+
+1. Clone this repository or unzip the `.zip` file:
    ```bash
    git clone <URL_REPO>
    cd Objetos
-2. Compilar el proyecto:
+Build the project:
 
-- bash
-- Copiar código
-- dotnet build
+bash
+Copiar código
+dotnet build
+Run the project in console:
 
-3. Ejecutar en consola:
+bash
+Copiar código
+dotnet run
+Implemented Classes
+Each class represents a real-world object:
 
-- bash
-- dotnet run
+Bank → Manage accounts and deposits.
 
-# Clases Implementadas
+Calculator → Perform mathematical operations.
 
-Cada clase representa un objeto del mundo real:
+Cinema → Manage movies and tickets.
 
-- Bank → Manejo de cuentas y depósitos.
+Clinic → Handle patients and medical appointments.
 
-- Calculator → Operaciones matemáticas.
+Hotel → Manage reservations and rooms.
 
-- Cinema → Gestión de funciones y entradas.
+Library → Handle book loans.
 
-- Clinic → Control de pacientes y citas médicas.
+Parking → Manage parking lot operations.
 
-- Hotel → Reservas y habitaciones.
+Pets → Register and control pets.
 
-- Library → Gestión de préstamos de libros.
+Restaurant → Manage orders and tables.
 
-- Parking → Administración de parqueadero.
+Store → Handle inventory.
 
-- Pets → Registro y control de mascotas.
+Students → Register students and grades.
 
-- Restaurant  → Pedidos y gestión de mesas.
-
-- Store → Manejo de inventario.
-
-- Students → Registro de notas y estudiantes.
-
-# Próximos pasos
-- Implementar persistencia de datos con archivos o base de datos.
-
-- Agregar pruebas unitarias.
-
-- Mejorar la interfaz de usuario en consola.
